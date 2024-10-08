@@ -58,27 +58,12 @@ Follow these steps to set up the project locally:
 
         `source venv/bin/activate`
 
-3.  **Install the required packages**: Make sure you have a `requirements.txt` file in your project directory. If not, you can create it with the necessary dependencies. Then, run:
 
-    bash
-
-    Copy code
-
-    `pip install -r requirements.txt`
-
-    If you don't have a `requirements.txt` file, you can manually install Django and any other required packages:
-
-    bash
-
-    Copy code
-
-    `pip install django psycopg2-binary django-taggit`
-
-4.  **Set up the PostgreSQL database**:
+3.  **Set up the PostgreSQL database**:
 
     -   Open PostgreSQL and create a new database for the project (e.g., `my_blog_db`).
     -   You can use pgAdmin or the command line to create the database.
-5.  **Configure the database settings**: Open `settings.py` in your Django project and update the `DATABASES` settings with your database credentials. For example:
+4.  **Configure the database settings**: Open `settings.py` in your Django project and update the `DATABASES` settings with your database credentials. For example:
 
     python
 
@@ -95,7 +80,7 @@ Follow these steps to set up the project locally:
         }
     }`
 
-6.  **Apply migrations**: Run the following command to create the necessary database tables:
+5.  **Apply migrations**: Run the following command to create the necessary database tables:
 
     bash
 
@@ -103,7 +88,7 @@ Follow these steps to set up the project locally:
 
     `python manage.py migrate`
 
-7.  **Create a superuser** (to access the Django admin):
+6.  **Create a superuser** (to access the Django admin):
 
     bash
 
@@ -113,7 +98,7 @@ Follow these steps to set up the project locally:
 
     Follow the prompts to create your superuser account.
 
-8.  **Run the development server**: Start the server with the following command:
+7.  **Run the development server**: Start the server with the following command:
 
     bash
 
@@ -121,7 +106,7 @@ Follow these steps to set up the project locally:
 
     `python manage.py runserver`
 
-9.  **Access the application**: Open your web browser and navigate to `http://127.0.0.1:8000/`.
+8.  **Access the application**: Open your web browser and navigate to `http://127.0.0.1:8000/`.
 
 Usage
 -----
