@@ -17,8 +17,8 @@ This project is a simple blog application built using Django. It allows users to
 
 To run this project, you need to have the following installed:
 
-- Python 3.x
-- Django 3.x or higher
+- Python 3.0
+- Django 3.0 or higher
 - PostgreSQL (for the database)
 
 ## Installation
